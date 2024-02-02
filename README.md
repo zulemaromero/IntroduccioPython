@@ -11,7 +11,7 @@ Benvinguts al meu repositori de programes de Python.
 ## Bateria 1 
 -[Exercici 1](Bateria1.1.py)
 
--[Exercici 2](Beteria1.2.py)
+-[Exercici 2](Bateria1.2.py)
 
 -[Exercici 3](Bateria1.3.py)
 
