@@ -14,3 +14,5 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 2](Beteria1.2.py)
 
 -[Exercici 3](Bateria1.3.py)
+
+-[Exercici 4](Bateria1.4.py)
