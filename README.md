@@ -9,6 +9,8 @@ Benvinguts al meu repositori de programes de Python.
 # Bateria
 
 ## Bateria 1 
--[Exercici 1](Bateria1.1.md)
--[Exercici 2](Beteria1.2.md)
--[Exercici 3](Bateria1.3.md)
+-[Exercici 1](Bateria1.1.py)
+
+-[Exercici 2](Beteria1.2.py)
+
+-[Exercici 3](Bateria1.3.py)
