@@ -23,3 +23,5 @@ Benvinguts al meu repositori de programes de Python.
 ## Bateria 3
 ## Bateria 4
 -[Exercici 1](Bateria4.1.py)
+
+-[Exercici 2](Bateria4.2.py)
