@@ -2,4 +2,4 @@
 
 En aquest projecte farem un arcade de naus. 
 
--[Nau protagonista](NauPRotagonista.png)
+-![Nau protagonista](nauprotagonista.png)
