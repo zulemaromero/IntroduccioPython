@@ -25,3 +25,6 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 1](Bateria4.1.py)
 
 -[Exercici 2](Bateria4.2.py)
+
+## String
+-[Exercici DNI](DNI.py)
