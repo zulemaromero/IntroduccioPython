@@ -19,8 +19,6 @@ Benvinguts al meu repositori de programes de Python.
 
 -[Exercici 5](Bateria1.5.py)
 
-## Bateria 2 
-## Bateria 3
 ## Bateria 4
 -[Exercici 1](Bateria4.1.py)
 
