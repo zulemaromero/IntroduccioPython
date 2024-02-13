@@ -31,9 +31,15 @@ Benvinguts al meu repositori de programes de Python.
 
 ## Array
 -[Exercici 1](Array1.py)
+
 -[Exercici 2](Array2.py)
+
 -[Exercici 3](Array3.py)
+
 -[Exercici 4](Array4.py)
+
 -[Exercici 5](Array5.py)
+
 -[Exercici 6](Array6.py)
+
 -[Exercici 7](Array7.py)
