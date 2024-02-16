@@ -8,7 +8,7 @@ Benvinguts al meu repositori de programes de Python.
 
 # Bateria
 
-## Bateria 1 
+## Bateria 1 Variables
 -[Exercici 1](Bateria1.1.py)
 
 -[Exercici 2](Bateria1.2.py)
@@ -41,3 +41,5 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 6](Array6.py)
 
 -[Exercici 7](Array7.py)
+
+## Bateria 5 Array
