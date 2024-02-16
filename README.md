@@ -44,3 +44,5 @@ Benvinguts al meu repositori de programes de Python.
 
 ## Bateria 5 Array
 -[Exercici 19](19.py)
+
+-[Exercici 20](20.py)
