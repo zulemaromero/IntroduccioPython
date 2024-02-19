@@ -46,3 +46,6 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 19](19.py)
 
 -[Exercici 20](20.py)
+
+## Calculadora ç
+-[Exercici Calculadora](calculadora.py)
