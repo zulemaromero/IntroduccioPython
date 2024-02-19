@@ -14,21 +14,24 @@ while True:
         suma1 = float(input("Digues un numero per sumar: "))
         suma2 = float(input("Digues un altre numero per sumar: "))
         resultat1 = suma1 + suma2
-        print(resultat1)
+        print("El resultat es:" ,resultat1)
 
     if num == 2:
         resta1 = float(input("Digues un numero per restar: "))
         resta2 = float(input("Digues un altre numero per restar: "))
         resultat2 = resta1 - resta2
-        print(resultat2)
+        print("El resultat es:" ,resultat2)
 
     if num == 3:
         multiplicar1 = float(input("Digues un numero per multiplicar: "))
         multiplicar2 = float(input("Digues un altre numero per multiplicar: "))
         resultat3 = multiplicar1 * multiplicar2
-        print(resultat3)
+        print("El resultat es:" ,resultat3)
     if num == 4:
         divisio1 = float(input("Digues un numero per dividir: "))
         divisio2 = float(input("Digues un altre numero per dividir: "))
-        resultat4 = divisio1 / divisio2
-        print(resultat4)
+        if divisio2 == 0.0:
+            print("El resultat és infinit.")
+        else:
+            resultat4 = divisio1 / divisio2
+            print("El resultat es:" ,resultat4)
