@@ -47,7 +47,7 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 20](20.py)
 
 ## Daus
--[Daus](Dauss.py)
+-[Daus](dauss.py)
 
 ## Calculadora 
 -[Exercici Calculadora](calculadora.py)
