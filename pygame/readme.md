@@ -9,3 +9,6 @@ En aquest projecte farem un arcade de naus.
 
 ## - Trets Naus 
 ![Tret Nau](Disparos.png)
+
+## - Fons Joc
+![Fons Joc](FonsJoc.ppng)
