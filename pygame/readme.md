@@ -5,4 +5,4 @@ En aquest projecte farem un arcade de naus.
 # Imatges 
 
 ## - Nau Protagonista
-![Nau protagonista](NauJoc.png)
+![Nau Principal](NauJoc.png)
