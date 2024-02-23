@@ -4,5 +4,5 @@ En aquest projecte farem un arcade de naus.
 
 # Imatges 
 
-## - Nau Protagonista
+## - Nau Principal
 ![Nau Principal](NauJoc.png)
