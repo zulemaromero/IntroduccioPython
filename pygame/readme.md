@@ -6,3 +6,6 @@ En aquest projecte farem un arcade de naus.
 
 ## - Nau Principal
 ![Nau Principal](NauJoc.png)
+
+## - Trets Naus 
+![Tret Nau](Disparos.png)
