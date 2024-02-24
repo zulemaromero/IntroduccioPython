@@ -12,3 +12,6 @@ En aquest projecte farem un arcade de naus.
 
 ## - Fons Joc
 ![Fons Joc](FondoJuego.png)
+
+## - Fons pantalla inici (Galactic Battle)
+![Pantalla inici](PantallaInici.png)
