@@ -11,4 +11,4 @@ En aquest projecte farem un arcade de naus.
 ![Tret Nau](Disparos.png)
 
 ## - Fons Joc
-![Fons Joc](FonsJoc.png)
+![Fons Joc](FondoJuego.png)
