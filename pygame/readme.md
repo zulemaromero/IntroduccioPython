@@ -5,7 +5,7 @@ En aquest projecte farem un arcade de naus.
 # Imatges 
 
 ## - Nau Principal
-![Nau Principal](NauJoc.png)
+![Nau Principal](NaveJuego.png)
 
 ## - Trets Naus 
 ![Tret Nau](Disparos.png)
