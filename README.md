@@ -59,3 +59,5 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 2](try2.py)
 
 -[Exercici 3](try3.py)
+
+-[Exercici 4](try4.py)
