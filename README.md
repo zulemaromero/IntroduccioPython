@@ -52,3 +52,10 @@ Benvinguts al meu repositori de programes de Python.
 
 ## Calculadora 
 -[Exercici Calculadora](calculadora.py)
+
+## Try
+-[Exercici 1](try1.py)
+
+-[Exercici 2](try2.py)
+
+-[Exercici 3](try3.py)
