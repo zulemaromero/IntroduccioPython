@@ -1,8 +1,7 @@
 input("""Per anar a l'esquerra presiona "a"
-Per anar a la dreta presiona "d" 
-:""")
+Per anar a la dreta presiona "d" : """)
 posicio = 0
-amplada = 20
+amplada = 21
 while True:
 
     moviment_pantalla = input(":")
@@ -16,11 +15,12 @@ while True:
         if posicio >= 21:
             posicio -= 1
 
-    text = ""
+    text = "|"
     for i in range(amplada):
         if i == posicio:
             text+="*"
         else:
             text += "."
+    text += "|"
     print(text)
     print(posicio)
