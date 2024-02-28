@@ -12,6 +12,10 @@ while True:
         posicio = posicio + 1
         if posicio >= alçada:
             posicio = alçada - 1
+     if moviment_pantalla == "a":
+        print("Tecla erronea")
+    if moviment_pantalla == "d":
+        print("Tecla erronea")
     text = ""
     for i in range(alçada):
         if i == posicio:
