@@ -14,6 +14,10 @@ while True:
         posicio = posicio + 1
         if posicio >= 21:
             posicio -= 1
+    if moviment_pantalla == "w":
+        print("Tecla erronea")
+    if moviment_pantalla == "s":
+        print("Tecla erronea")
 
     text = "|"
     for i in range(amplada):
