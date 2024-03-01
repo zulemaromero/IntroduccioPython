@@ -15,3 +15,6 @@ En aquest projecte farem un arcade de naus.
 
 ## - Fons pantalla inici (Galactic Battle)
 ![Pantalla inici](PantallaInici.png)
+
+## - Enemics 
+![Enemics Joc](enemic.png) ![Enemics Joc](enemic2.png)
