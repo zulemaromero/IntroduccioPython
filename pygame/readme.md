@@ -17,4 +17,4 @@ En aquest projecte farem un arcade de naus.
 ![Pantalla inici](PantallaInici.png)
 
 ## - Enemics 
-![Enemics Joc](enemic.png) ![Enemics Joc](enemic2.png)
+![Enemics Joc](enemic.png) ![Enemics Joc](enemic2.png) ![Enemics Joc](enemic3.png)
