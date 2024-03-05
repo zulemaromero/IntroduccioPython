@@ -4,6 +4,7 @@ import pygame
 
 WIDTH = 320
 HIGH = 200
+COLOR = (255, 255, 0)
 LOGO_IMAGE = "assets/animal.png"
 CAPTION_TEXT = "ZOO Romero"
 # create a surface on screen that has the size of 320 x 200
@@ -24,7 +25,7 @@ def main():
     # main loop
     while running:
         # background set to BLACK
-        screen.fill((255, 255, 0))
+        screen.fill(COLOR)
         # draw the screen
         pygame.display.flip()
     # poll for events
