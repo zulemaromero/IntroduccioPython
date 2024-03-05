@@ -4,6 +4,7 @@ import pygame
 
 WIDTH = 800
 HIGH = 600
+COLOR = (85, 107, 47
 LOGO_IMAGE = "assets/tank.png"
 CAPTION_TEXT = "War Romero"
 # create a surface on screen that has the size of 800 x 600
@@ -24,7 +25,7 @@ def main():
     # main loop
     while running:
         # background set to BLACK
-        screen.fill((85, 107, 47))
+        screen.fill(COLOR))
         # draw the screen
         pygame.display.flip()
     # poll for events
