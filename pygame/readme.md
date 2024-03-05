@@ -18,3 +18,7 @@ En aquest projecte farem un arcade de naus.
 
 ## - Enemics 
 ![Enemics Joc](enemic.png) ![Enemics Joc](enemic2.png) ![Enemics Joc](enemic3.png)
+
+## - Prova finestres
+
+
