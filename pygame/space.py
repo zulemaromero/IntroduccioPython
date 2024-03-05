@@ -3,6 +3,7 @@ import pygame
 
 WIDTH = 1280
 HIGH = 720
+COLOR = (105, 105, 105)
 LOGO_IMAGE = "assets/earth.png"
 CAPTION_TEXT = "Space Romero"
 # create a surface on screen that has the size of 1280 x 720
@@ -23,7 +24,7 @@ def main():
     # main loop
     while running:
         # background set to BLACK
-        screen.fill((105, 105, 105))
+        screen.fill(COLOR)
         # draw the screen
         pygame.display.flip()
     # poll for events
