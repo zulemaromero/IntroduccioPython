@@ -3,6 +3,7 @@ import pygame
 
 WIDTH = 640
 HIGH = 480
+COLOR = (0, 0, 139)
 LOGO_IMAGE = "assets/fish.png"
 CAPTION_TEXT = "Ocean Romero"
 # create a surface on screen that has the size of 640 x 480
@@ -23,7 +24,7 @@ def main():
     # main loop
     while running:
         # background set to BLACK
-        screen.fill((0, 0, 139))
+        screen.fill(COLOR)
         # draw the screen
         pygame.display.flip()
     # poll for events
