@@ -31,6 +31,12 @@ Benvinguts al meu repositori de programes de Python.
 -[Exercici 6](Array6.py)
 -[Exercici 7](Array7.py)
 
+## Try
+-[Exercici 1](try1.py)
+-[Exercici 2](try2.py)
+-[Exercici 3](try3.py)
+-[Exercici 4](try4.py)
+
 ## Bateria 5 Array
 -[Exercici 19](19.py)
 -[Exercici 20](20.py)
@@ -41,8 +47,7 @@ Benvinguts al meu repositori de programes de Python.
 ## Calculadora 
 -[Exercici Calculadora](calculadora.py)
 
-## Try
--[Exercici 1](try1.py)
--[Exercici 2](try2.py)
--[Exercici 3](try3.py)
--[Exercici 4](try4.py)
+## Finestres
+-[Lletra](lletraH.py)
+-[Escala Colors](escalacolors.py)
+
