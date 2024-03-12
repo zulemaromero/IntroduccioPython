@@ -21,3 +21,6 @@ En aquest projecte farem un arcade de naus.
 
 ## - Prova finestres
 [Space](space.py) / [War](war.py) / [Ocean](ocean.py) / [Zoo](zoo.py)
+
+## Finestres
+[Lletra](lletraH.py) / [Escala Colors](escalacolors.py)
