@@ -47,8 +47,4 @@ Benvinguts al meu repositori de programes de Python.
 ## Calculadora 
 -[Exercici Calculadora](calculadora.py)
 
-## Finestres
--[Lletra](lletraH.py)
-
--[Escala Colors](escalacolors.py)
 
