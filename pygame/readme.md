@@ -26,4 +26,4 @@ En aquest projecte farem un arcade de naus.
 [Lletra](lletraH.py) / [Escala Colors](escalacolors.py)
 
 ## Harry Potter
-[Harry Potter](HarryPotter.py)
+[Harry Potter](harrypotter.py)
