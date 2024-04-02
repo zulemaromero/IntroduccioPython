@@ -31,3 +31,9 @@ En aquest projecte farem un arcade de naus.
 
 ## Musica Joc Arcade
 [Musica](MusicaArcade.mp3)
+
+## Pantalla Inici
+[Pantalla Inici](PantallaInici.py)
+
+## Pantalla Joc
+[Pantalla Joc](PantallaJoc.py)
