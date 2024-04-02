@@ -13,7 +13,7 @@ velocitat_nau = 2
 
 pygame.init()
 pantalla = pygame.display.set_mode((AMPLADA, ALTURA))
-pygame.display.set_caption("Arcade")
+pygame.display.set_caption("Galactic Battle")
 logo = pygame.image.load(LOGO_IMAGE)
 pygame.display.set_icon(logo)
 
