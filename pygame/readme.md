@@ -5,7 +5,10 @@ En aquest projecte farem un arcade de naus.
 # Imatges 
 
 ## - Nau Principal
-![Nau Principal](NaveJuego.png)
+![Nau Principal](NauJoc.png)
+
+## - Nau Enemiga
+![Nau Enemiga](NauEnemic.png)
 
 ## - Trets Naus 
 ![Tret Nau](Disparos.png)
@@ -27,3 +30,6 @@ En aquest projecte farem un arcade de naus.
 
 ## Harry Potter
 [Harry Potter](harrypotter.py)
+
+## Musica Joc Arcade
+[Musica] (MusicaArcade.mp3)
