@@ -32,4 +32,4 @@ En aquest projecte farem un arcade de naus.
 [Harry Potter](harrypotter.py)
 
 ## Musica Joc Arcade
-[Musica] (MusicaArcade.mp3)
+[Musica](MusicaArcade.mp3)
