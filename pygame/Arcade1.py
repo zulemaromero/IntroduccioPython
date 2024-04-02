@@ -4,8 +4,9 @@ import pygame
 
 AMPLADA = 320
 ALTURA = 200
+LOGO_IMAGE = "assets/Enemic2.png"
 BACKGROUND_IMAGE = 'assets/FondoJuego.png'
-player_image = pygame.image.load('assets/NaveJuego.png')
+player_image = pygame.image.load('assets/NauJoc.png')
 player_rect = player_image.get_rect(midbottom=(AMPLADA // 2, ALTURA - 10))
 velocitat_nau = 2
 #MUSICA_FONS = 'assets/music.mp3'
@@ -13,6 +14,8 @@ velocitat_nau = 2
 pygame.init()
 pantalla = pygame.display.set_mode((AMPLADA, ALTURA))
 pygame.display.set_caption("Arcade")
+logo = pygame.image.load(LOGO_IMAGE)
+pygame.display.set_icon(logo)
 
 # Control de FPS
 clock = pygame.time.Clock()
