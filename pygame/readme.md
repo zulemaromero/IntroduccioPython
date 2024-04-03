@@ -3,10 +3,10 @@
 En aquest projecte farem un arcade de naus. 
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 ## - Nau Principal
-![Nau Principal](NauJoc.png)
+![Nau Principal](NAUPRINCIPAL.png)
 
 ## - Nau Enemiga
-![Nau Enemiga](NauEnemic.png)
+![Nau Enemiga](NAUENEMIC.png)
 
 ## - Trets Naus 
 ![Tret Nau](Disparos.png)
