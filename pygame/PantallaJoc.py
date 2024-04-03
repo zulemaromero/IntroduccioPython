@@ -7,6 +7,8 @@ ALTURA = 200
 BACKGROUND_IMAGE = 'assets/FondoJuego.png'
 MUSICA_FONS = 'assets/MusicaArcade.mp3'
 ORANGE = (255,127,0)
+LOGO_IMAGE = "assets/enemic2.png"
+
 
 
 
@@ -34,6 +36,8 @@ temps_ultima_bala_jugador2 = 0 #per contar el temps que ha passat des de que ha 
 pygame.init()
 pantalla = pygame.display.set_mode((AMPLADA, ALTURA))
 pygame.display.set_caption("Galactic Battle")
+logo = pygame.image.load(LOGO_IMAGE)
+pygame.display.set_icon(logo)
 
 # Control de FPS
 clock = pygame.time.Clock()
