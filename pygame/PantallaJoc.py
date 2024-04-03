@@ -11,17 +11,17 @@ ORANGE = (255,127,0)
 
 
 # Jugador 1:
-player_image = pygame.image.load('assets/NauJoc.png')
+player_image = pygame.image.load('assets/NAUPRINCIPAL.png')
 player_rect = player_image.get_rect(midbottom=(AMPLADA // 2, ALTURA - 10))
 velocitat_nau = 1
 
 # Jugador 2:
-player_image2 = pygame.image.load('assets/NauEnemic.png')
+player_image2 = pygame.image.load('assets/NAUENEMIC.png')
 player_rect2 = player_image2.get_rect(midbottom=(AMPLADA // 2, ALTURA - 150))
 velocitat_nau2 = 1
 
 # Bala rectangular blanca:
-bala_imatge = pygame.Surface((4,10)) #definim una superficie rectangle de 4 pixels d'ample i 10 d'alçada
+bala_imatge = pygame.Surface((2,6)) #definim una superficie rectangle de 4 pixels d'ample i 10 d'alçada
 bala_imatge.fill(ORANGE) #pintem la superficie de color blanc
 bales_jugador1 = [] #llista on guardem les bales del jugador 1
 bales_jugador2 = [] #llista on guardem les bales del jugador 2
@@ -43,6 +43,16 @@ def imprimir_pantalla_fons(image):
     # Imprimeixo imatge de fons:
     background = pygame.image.load(image).convert()
     pantalla.blit(background, (0, 0))
+def musica_fons(musica):
+    ambient_music = pygame.mixer.Sound(musica)
+    music_chanel = pygame.mixer.Channel(0)
+    ambient_music.play()
+    while True:
+        ambient_music.set_volume(0.3)
+        time.sleep(0)
+        break
+
+musica_fons('assets/MusicaArcade.mp3')
 
 while True:
     #contador
