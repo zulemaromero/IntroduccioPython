@@ -18,7 +18,7 @@ En aquest projecte farem un arcade de naus.
 ![Pantalla inici](GameOn.png)
 
 ## - Game Over
-![Game Over](gameover.png)
+![Game Over](gameover.jpg)
 
 ## - Vida
 ![Vida](vides.png)
