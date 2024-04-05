@@ -8,26 +8,26 @@ BACKGROUND_IMAGE = 'assets/FondoJuego.png'
 MUSICA_FONS = 'assets/MusicaArcade.mp3'
 ORANGE = (255,127,0)
 LOGO_IMAGE = "assets/enemic2.png"
-
-
-
+GAME_OVER = "assets/gameover.jpg"
+vides1 = 3
+vides2 = 3
 
 # Jugador 1:
 player_image = pygame.image.load('assets/NAUPRINCIPAL.png')
 player_rect = player_image.get_rect(midbottom=(AMPLADA // 2, ALTURA - 10))
-velocitat_nau = 1
+velocitat_nau = 2
 
 # Jugador 2:
 player_image2 = pygame.image.load('assets/NAUENEMIC.png')
 player_rect2 = player_image2.get_rect(midbottom=(AMPLADA // 2, ALTURA - 150))
-velocitat_nau2 = 1
+velocitat_nau2 = 2
 
 # Bala rectangular blanca:
 bala_imatge = pygame.Surface((2,6)) #definim una superficie rectangle de 4 pixels d'ample i 10 d'alçada
 bala_imatge.fill(ORANGE) #pintem la superficie de color blanc
 bales_jugador1 = [] #llista on guardem les bales del jugador 1
 bales_jugador2 = [] #llista on guardem les bales del jugador 2
-velocitat_bales = 3
+velocitat_bales = 4
 temps_entre_bales = 800 #1 segon
 temps_ultima_bala_jugador1 = 0 #per contar el temps que ha passat des de que ha disparat el jugador 1
 temps_ultima_bala_jugador2 = 0 #per contar el temps que ha passat des de que ha disparat el jugador 2
@@ -107,6 +107,7 @@ while True:
         # Detectar col·lisions jugador 2:
         if player_rect2.colliderect(bala):  # si una bala toca al jugador1 (el seu rectangle)
             print("BOOM 1!")
+            vides2 -=1
             bales_jugador1.remove(bala)  # eliminem la bala
             # mostrem una explosió
             # eliminem el jugador 1 (un temps)
@@ -122,14 +123,58 @@ while True:
         # Detectar col·lisions jugador 1:
         if player_rect.colliderect(bala):  # si una bala toca al jugador1 (el seu rectangle)
             print("BOOM 2!")
+            vides1 -=1
             bales_jugador2.remove(bala)  # eliminem la bala
-            # mostrem una explosió
-            # eliminem el jugador 1 (un temps)
-            # anotem punts al jugador 1
+        # mostrem una explosió
+        # eliminem el jugador 1 (un temps)
+        # anotem punts al jugador 1
 
     #dibuixar els jugadors:
     pantalla.blit(player_image, player_rect)
     pantalla.blit(player_image2, player_rect2)
+
+    #dibuixar vides
+    #Vides Jugador 1:
+    def dibuixar_vida1_jugador1():
+        vides1j1 = pygame.image.load(('assets/vides.png')).convert()
+        pantalla.blit(vides1j1,(310,190))
+    def dibuixar_vida2_jugador1():
+        vides2j1 = pygame.image.load(('assets/vides.png')).convert()
+        pantalla.blit(vides2j1, (300, 190))
+    def dibuixar_vida3_jugador1():
+        vides3j1 = pygame.image.load(('assets/vides.png')).convert()
+        pantalla.blit(vides3j1, (290, 190))
+
+    if vides1 == 3:
+        dibuixar_vida3_jugador1()
+    if vides1 >= 2:
+        dibuixar_vida2_jugador1()
+    if vides1 >= 1:
+        dibuixar_vida1_jugador1()
+    if vides1 == 0:
+        mort = pygame.image.load(GAME_OVER).convert()
+    # Vides Jugador 2:
+    def dibuixar_vida1_jugador2():
+        vides1j2 = pygame.image.load(('assets/vides.png')).convert()
+        pantalla.blit(vides1j2, (310, 10))
+
+    def dibuixar_vida2_jugador2():
+        vides2j2 = pygame.image.load(('assets/vides.png')).convert()
+        pantalla.blit(vides2j2, (300, 10))
+
+    def dibuixar_vida3_jugador2():
+        vides3j2 = pygame.image.load(('assets/vides.png')).convert()
+        pantalla.blit(vides3j2, (290, 10))
+
+    if vides2 == 3:
+        dibuixar_vida3_jugador2()
+    if vides2 >= 2:
+        dibuixar_vida2_jugador2()
+    if vides2 >= 1:
+        dibuixar_vida1_jugador2()
+    if vides2 == 0:
+        mort = pygame.image.load(GAME_OVER).convert()
+
 
     pygame.display.update()
     clock.tick(fps)
