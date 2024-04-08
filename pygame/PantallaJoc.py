@@ -8,9 +8,11 @@ BACKGROUND_IMAGE = 'assets/FondoJuego.png'
 MUSICA_FONS = 'assets/MusicaArcade.mp3'
 ORANGE = (255,127,0)
 LOGO_IMAGE = "assets/enemic2.png"
-GAME_OVER = "assets/gameover.jpg"
+GAME_OVER1 = "assets/PLAYERONE.png"
+GAME_OVER2 = "assets/PLAYERTWO.png"
 vides1 = 3
 vides2 = 3
+BOOM = "assets/BOOM.png"
 
 # Jugador 1:
 player_image = pygame.image.load('assets/NAUPRINCIPAL.png')
@@ -144,15 +146,16 @@ while True:
     def dibuixar_vida3_jugador1():
         vides3j1 = pygame.image.load(('assets/vides.png')).convert()
         pantalla.blit(vides3j1, (290, 190))
-
-    if vides1 == 3:
-        dibuixar_vida3_jugador1()
-    if vides1 >= 2:
-        dibuixar_vida2_jugador1()
-    if vides1 >= 1:
-        dibuixar_vida1_jugador1()
-    if vides1 == 0:
-        mort = pygame.image.load(GAME_OVER).convert()
+    if vides2 > 0:
+        if vides1 == 3:
+            dibuixar_vida3_jugador1()
+        if vides1 >= 2:
+            dibuixar_vida2_jugador1()
+        if vides1 >= 1:
+            dibuixar_vida1_jugador1()
+        if vides1 == 0:
+            mort = pygame.image.load(GAME_OVER2).convert()
+            pantalla.blit(mort, (0, 0))
     # Vides Jugador 2:
     def dibuixar_vida1_jugador2():
         vides1j2 = pygame.image.load(('assets/vides.png')).convert()
@@ -165,15 +168,16 @@ while True:
     def dibuixar_vida3_jugador2():
         vides3j2 = pygame.image.load(('assets/vides.png')).convert()
         pantalla.blit(vides3j2, (290, 10))
-
-    if vides2 == 3:
-        dibuixar_vida3_jugador2()
-    if vides2 >= 2:
-        dibuixar_vida2_jugador2()
-    if vides2 >= 1:
-        dibuixar_vida1_jugador2()
-    if vides2 == 0:
-        mort = pygame.image.load(GAME_OVER).convert()
+    if vides1 > 0:
+        if vides2 == 3:
+            dibuixar_vida3_jugador2()
+        if vides2 >= 2:
+            dibuixar_vida2_jugador2()
+        if vides2 >= 1:
+            dibuixar_vida1_jugador2()
+        if vides2 == 0:
+            mort = pygame.image.load(GAME_OVER1).convert()
+            pantalla.blit(mort,(0,0))
 
 
     pygame.display.update()
