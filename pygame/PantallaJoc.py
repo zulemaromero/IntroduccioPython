@@ -7,7 +7,7 @@ ALTURA = 200
 BACKGROUND_IMAGE = 'assets/FondoJuego.png'
 MUSICA_FONS = 'assets/MusicaArcade.mp3'
 ORANGE = (255,127,0)
-LOGO_IMAGE = "assets/enemic2.png"
+LOGO_IMAGE = "assets/animal.png"
 GAME_OVER1 = "assets/PLAYERONE.png"
 GAME_OVER2 = "assets/PLAYERTWO.png"
 vides1 = 3
@@ -64,10 +64,6 @@ def musica_fons(musica):
         ambient_music.set_volume(0.3)
         time.sleep(0)
         break
-    if vides1 == 0:
-        ambient_music.stop()
-    if vides2 == 0:
-        ambient_music.stop()
 musica_fons('assets/MusicaArcade.mp3')
 
 while True:
@@ -100,8 +96,6 @@ while True:
     if keys[K_RIGHT]:
         player_rect2.x += velocitat_nau2
 
-
-
     # Mantenir al jugador dins de la pantalla:
     player_rect.clamp_ip(pantalla.get_rect())
     player_rect2.clamp_ip(pantalla.get_rect())
@@ -120,9 +114,11 @@ while True:
         if player_rect2.colliderect(bala):  # si una bala toca al jugador1 (el seu rectangle)
             print("BOOM 1!")
             vides2 -=1
-            explosio2 = True
             bales_jugador1.remove(bala)  # eliminem la bala
-            # mostrem una explosió
+            explosio2 = True
+            temps_explosio = current_time
+            # eliminem el jugador 2 (un temps)
+            # anotem punts al jugador 2
 
 
     # Actualitzar i dibuixar les bales del jugador 2:
@@ -139,28 +135,22 @@ while True:
             bales_jugador2.remove(bala)  # eliminem la bala
             explosio1 = True
             temps_explosio = current_time
-        # eliminem el jugador 1 (un temps)
-        # anotem punts al jugador 1
+            # eliminem el jugador 1 (un temps)
+            # anotem punts al jugador 1
 
-    #dibuixar els jugadors:
-
+    #dibuixar els jugadors o explosio:
+    #JUGADOR 1
     if explosio1 == False:
         pantalla.blit(player_image, player_rect)
     else:
         pantalla.blit(explossion_image, player_rect)
         if current_time - temps_durada_explosio >= temps_explosio:
             explosio1 = False
-
-
-    # eliminem el jugador 1 (un temps)
-    # anotem punts al jugador 1
-
-    # mostrem una explosió
+    #JUGADOR2
     if explosio2 == False:
         pantalla.blit(player_image2, player_rect2)
     else:
         pantalla.blit(explossion_image, player_rect2)
-
         if current_time - temps_durada_explosio >= temps_explosio:
             explosio2 = False
 
