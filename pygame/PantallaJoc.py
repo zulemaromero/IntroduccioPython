@@ -56,15 +56,15 @@ def imprimir_pantalla_fons(image):
     # Imprimeixo imatge de fons:
     background = pygame.image.load(image).convert()
     pantalla.blit(background, (0, 0))
-def musica_fons(musica):
-    ambient_music = pygame.mixer.Sound(musica)
-    music_chanel = pygame.mixer.Channel(0)
-    ambient_music.play()
-    while True:
-        ambient_music.set_volume(0.3)
-        time.sleep(0)
-        break
-musica_fons('assets/MusicaArcade.mp3')
+
+
+
+ambient_music = pygame.mixer.Sound('assets/MusicaArcade.mp3')
+music_chanel = pygame.mixer.Channel(0)
+ambient_music.play()
+ambient_music.set_volume(0.3)
+
+
 
 while True:
     #contador
@@ -175,6 +175,7 @@ while True:
         if vides1 >= 1:
             dibuixar_vida1_jugador1()
         if vides1 == 0:
+            ambient_music.stop()
             mort = pygame.image.load(GAME_OVER2).convert()
             pantalla.blit(mort, (0, 0))
     # Vides Jugador 2:
@@ -197,8 +198,10 @@ while True:
         if vides2 >= 1:
             dibuixar_vida1_jugador2()
         if vides2 == 0:
+            ambient_music.stop()
             mort = pygame.image.load(GAME_OVER1).convert()
             pantalla.blit(mort,(0,0))
+            
 
 
     pygame.display.update()
