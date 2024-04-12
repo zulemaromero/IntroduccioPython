@@ -6,7 +6,7 @@ AMPLADA = 320
 ALTURA = 200
 BACKGROUND_IMAGE = 'assets/FondoJuego.png'
 MUSICA_FONS = 'assets/MusicaArcade.mp3'
-ORANGE = (255,127,0)
+YELLOW  = (255,255,0)
 LOGO_IMAGE = "assets/animal.png"
 GAME_OVER1 = "assets/PLAYERONE.png"
 GAME_OVER2 = "assets/PLAYERTWO.png"
@@ -19,7 +19,7 @@ temps_durada_explosio = 500
 
 
 #Explosión1:
-explossion_image = pygame.image.load('assets/BOOM.png')
+explossion_image = pygame.image.load('assets/explosio.png')
 
 # Jugador 1:
 player_image = pygame.image.load('assets/NAUPRINCIPAL.png')
@@ -33,7 +33,7 @@ velocitat_nau2 = 2
 
 # Bala rectangular blanca:
 bala_imatge = pygame.Surface((2,6)) #definim una superficie rectangle de 4 pixels d'ample i 10 d'alçada
-bala_imatge.fill(ORANGE) #pintem la superficie de color blanc
+bala_imatge.fill(YELLOW) #pintem la superficie de color blanc
 bales_jugador1 = [] #llista on guardem les bales del jugador 1
 bales_jugador2 = [] #llista on guardem les bales del jugador 2
 velocitat_bales = 4
@@ -86,15 +86,16 @@ while True:
 
     # Moviment del jugador 1
     keys = pygame.key.get_pressed()
-    if keys[K_a]:
-        player_rect.x -= velocitat_nau
-    if keys[K_d]:
-        player_rect.x += velocitat_nau
-    # Moviment del jugador 2
-    if keys[K_LEFT]:
-        player_rect2.x -= velocitat_nau2
-    if keys[K_RIGHT]:
-        player_rect2.x += velocitat_nau2
+    if explosio2 == False and  explosio1 == False:
+        if keys[K_a]:
+            player_rect.x -= velocitat_nau
+        if keys[K_d]:
+            player_rect.x += velocitat_nau
+        # Moviment del jugador 2
+        if keys[K_LEFT]:
+            player_rect2.x -= velocitat_nau2
+        if keys[K_RIGHT]:
+            player_rect2.x += velocitat_nau2
 
     # Mantenir al jugador dins de la pantalla:
     player_rect.clamp_ip(pantalla.get_rect())
