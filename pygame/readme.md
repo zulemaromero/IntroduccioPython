@@ -39,7 +39,7 @@ En aquest projecte farem un arcade de naus.
 [Harry Potter](harrypotter.py)
 
 ## Musica Joc Arcade
-[Musica Joc](MusicaArcade.mp3) / [Musica Explosió](explosion.mp3) / [Musica Bala](shoot.mp3) / 
+[Musica Joc](MusicaArcade.mp3) / [Musica Explosió](so_explosio.mp3) / [Musica Bala](shoot.mp3) / [Musica Guanyador](so_guanyador.mp3)
 
 ## Pantalla Inici
 [Pantalla Inici](PantallaInici.py)
