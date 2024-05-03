@@ -9,5 +9,5 @@ En aquest projecte farem un tetris.
 ![Fondo Juego](fondo.png)
 
 ## - Botones
-![Stop](start_stop_btm.png)
-![New Game](new_game_btm.png)
+![Stop](start_stop_btn.png)
+![New Game](new_game_btn.png)
