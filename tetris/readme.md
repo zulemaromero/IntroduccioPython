@@ -6,7 +6,7 @@ En aquest projecte farem un tetris.
 ![Rojo](rojo.png)![Naranja](naranja.png)![Amarillo](amarillo.png)![Verde](verde.png)![Azul](azul.png)![Lila](lila.png)![Gris](gris.png)
 
 ## - Bombillas
-![Rojo](vermell.png)![Naranja](taronja.png)![Amarillo](amarillo.png)![Verde](verd.png)![Azul](blau.png)![Lila](morat.png)
+![Rojo](vermell.png)![Naranja](taronja.png)![Amarillo](amarilla.png)![Verde](verd.png)![Azul](blau.png)![Lila](morat.png)
 
 ## - Luciérnaga
 ![Luciérnaga](luciernaga.png)
